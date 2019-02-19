@@ -1,7 +1,7 @@
 # AutomationFramework_API-UI
 
 --------------------------------------------------------------------------------------------
-Demo: Hybrid Framework
+Hybrid Framework
 --------------------------------------------------------------------------------------------
 1. Requirement for new framework (Why?).
 	- Combined where both UI and API testing can be achieved.
@@ -28,6 +28,7 @@ $ mvn clean test -P apiTests
 
 Run a specific test:
 $ mvn clean test -P apiTests -Dcucumber.options="src/test/java/examples/users/usersAdvanced.feature"
+
 $ mvn clean test -P apiTests -DargLine="-Dkarate.env=e2e"
 
 $ mvn test -Dcucumber.options='--tags "@smoke and @fast"'
