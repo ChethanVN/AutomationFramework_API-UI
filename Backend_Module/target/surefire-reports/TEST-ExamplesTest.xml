@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="ExamplesTest" time="8.866" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\bin"/>
+    <property name="java.vm.version" value="25.192-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Prakat-L-020\Documents\Automation_Frameworks\MultiModule_projects\maven-project-example"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Prakat-L-020\Documents\Automation_Frameworks\MultiModule_projects\maven-project-example"/>
+    <property name="java.runtime.version" value="1.8.0_192-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_192\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRAKAT~3\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Prakat-L-020\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4777635062886859586.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_192/bin/client;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/i386;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\Prakat-L-020\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\nodejs\;C:\Program Files\Android\Android Studio\bin;C:\Users\Prakat-L-020\Downloads\tree-1.5.2.2-bin\bin;C:\Users\Prakat-L-020\AppData\Roaming\npm;C:\Users\Prakat-L-020\Downloads\tree-1.5.2.2-bin\bin;;C:\Users\Prakat-L-020\Downloads\eclipse-java-2018-09-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Prakat-L-020"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Prakat-L-020"/>
+    <property name="java.class.path" value="C:\Users\Prakat-L-020\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_192\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_192"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_192\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_192\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_192\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Prakat-L-020\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="ExamplesTest" name="testParallel" time="8.866">
+    <failure message="there are scenario failures" type="java.lang.AssertionError">java.lang.AssertionError: there are scenario failures
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at ExamplesTest.testParallel(ExamplesTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>15:18:08.592 [main] INFO  com.intuit.karate.Runner - Karate version: 0.9.1
+15:18:10.583 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:10.602 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:10.604 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:10.604 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:10.681 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:10.788 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:11.157 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate.Runner - &lt;&lt;fail&gt;&gt; feature 1 of 3: classpath:Features/API_test.feature
+---------------------------------------------------------
+feature: classpath:Features/API_test.feature
+report: target\surefire-reports\Features.API_test.json
+scenarios:  3 | passed:  0 | failed:  3 | time: 0.0000
+---------------------------------------------------------
+15:18:11.223 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:12.084 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 &gt; GET https://jsonplaceholder.typicode.com/users
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_192)
+
+15:18:12.085 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 &gt; POST https://jsonplaceholder.typicode.com/users
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 160
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_192)
+{&quot;name&quot;:&quot;Test User&quot;,&quot;username&quot;:&quot;testuser&quot;,&quot;email&quot;:&quot;test@user.com&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Has No Name&quot;,&quot;suite&quot;:&quot;Apt. 123&quot;,&quot;city&quot;:&quot;Electri&quot;,&quot;zipcode&quot;:&quot;54321-6789&quot;}}
+
+15:18:12.086 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 &gt; GET https://jsonplaceholder.typicode.com/users
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_192)
+
+15:18:12.117 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 &gt; POST https://jsonplaceholder.typicode.com/users
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 160
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: jsonplaceholder.typicode.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_192)
+{&quot;name&quot;:&quot;Test User&quot;,&quot;username&quot;:&quot;testuser&quot;,&quot;email&quot;:&quot;test@user.com&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Has No Name&quot;,&quot;suite&quot;:&quot;Apt. 123&quot;,&quot;city&quot;:&quot;Electri&quot;,&quot;zipcode&quot;:&quot;54321-6789&quot;}}
+
+15:18:12.763 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 675.10
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 4ab7d1011a8cc92a-HYD
+1 &lt; Cache-Control: public, max-age=14400
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 19 Feb 2019 09:48:12 GMT
+1 &lt; Etag: W/&quot;160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ&quot;
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Expires: Tue, 19 Feb 2019 13:48:12 GMT
+1 &lt; Pragma: no-cache
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=df9013c0437bd94e42cde6b1816a41f361550569692; expires=Wed, 19-Feb-20 09:48:12 GMT; path=/; domain=.typicode.com; HttpOnly
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Powered-By: Express
+[
+  {
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;Leanne Graham&quot;,
+    &quot;username&quot;: &quot;Bret&quot;,
+    &quot;email&quot;: &quot;Sincere@april.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Kulas Light&quot;,
+      &quot;suite&quot;: &quot;Apt. 556&quot;,
+      &quot;city&quot;: &quot;Gwenborough&quot;,
+      &quot;zipcode&quot;: &quot;92998-3874&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-37.3159&quot;,
+        &quot;lng&quot;: &quot;81.1496&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-770-736-8031 x56442&quot;,
+    &quot;website&quot;: &quot;hildegard.org&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Romaguera-Crona&quot;,
+      &quot;catchPhrase&quot;: &quot;Multi-layered client-server neural-net&quot;,
+      &quot;bs&quot;: &quot;harness real-time e-markets&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Ervin Howell&quot;,
+    &quot;username&quot;: &quot;Antonette&quot;,
+    &quot;email&quot;: &quot;Shanna@melissa.tv&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Victor Plains&quot;,
+      &quot;suite&quot;: &quot;Suite 879&quot;,
+      &quot;city&quot;: &quot;Wisokyburgh&quot;,
+      &quot;zipcode&quot;: &quot;90566-7771&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-43.9509&quot;,
+        &quot;lng&quot;: &quot;-34.4618&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;010-692-6593 x09125&quot;,
+    &quot;website&quot;: &quot;anastasia.net&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Deckow-Crist&quot;,
+      &quot;catchPhrase&quot;: &quot;Proactive didactic contingency&quot;,
+      &quot;bs&quot;: &quot;synergize scalable supply-chains&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 3,
+    &quot;name&quot;: &quot;Clementine Bauch&quot;,
+    &quot;username&quot;: &quot;Samantha&quot;,
+    &quot;email&quot;: &quot;Nathan@yesenia.net&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Douglas Extension&quot;,
+      &quot;suite&quot;: &quot;Suite 847&quot;,
+      &quot;city&quot;: &quot;McKenziehaven&quot;,
+      &quot;zipcode&quot;: &quot;59590-4157&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-68.6102&quot;,
+        &quot;lng&quot;: &quot;-47.0653&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-463-123-4447&quot;,
+    &quot;website&quot;: &quot;ramiro.info&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Romaguera-Jacobson&quot;,
+      &quot;catchPhrase&quot;: &quot;Face to face bifurcated interface&quot;,
+      &quot;bs&quot;: &quot;e-enable strategic applications&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;name&quot;: &quot;Patricia Lebsack&quot;,
+    &quot;username&quot;: &quot;Karianne&quot;,
+    &quot;email&quot;: &quot;Julianne.OConner@kory.org&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Hoeger Mall&quot;,
+      &quot;suite&quot;: &quot;Apt. 692&quot;,
+      &quot;city&quot;: &quot;South Elvis&quot;,
+      &quot;zipcode&quot;: &quot;53919-4257&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;29.4572&quot;,
+        &quot;lng&quot;: &quot;-164.2990&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;493-170-9623 x156&quot;,
+    &quot;website&quot;: &quot;kale.biz&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Robel-Corkery&quot;,
+      &quot;catchPhrase&quot;: &quot;Multi-tiered zero tolerance productivity&quot;,
+      &quot;bs&quot;: &quot;transition cutting-edge web services&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 5,
+    &quot;name&quot;: &quot;Chelsey Dietrich&quot;,
+    &quot;username&quot;: &quot;Kamren&quot;,
+    &quot;email&quot;: &quot;Lucio_Hettinger@annie.ca&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Skiles Walks&quot;,
+      &quot;suite&quot;: &quot;Suite 351&quot;,
+      &quot;city&quot;: &quot;Roscoeview&quot;,
+      &quot;zipcode&quot;: &quot;33263&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-31.8129&quot;,
+        &quot;lng&quot;: &quot;62.5342&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;(254)954-1289&quot;,
+    &quot;website&quot;: &quot;demarco.info&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Keebler LLC&quot;,
+      &quot;catchPhrase&quot;: &quot;User-centric fault-tolerant solution&quot;,
+      &quot;bs&quot;: &quot;revolutionize end-to-end systems&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Mrs. Dennis Schulist&quot;,
+    &quot;username&quot;: &quot;Leopoldo_Corkery&quot;,
+    &quot;email&quot;: &quot;Karley_Dach@jasper.info&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Norberto Crossing&quot;,
+      &quot;suite&quot;: &quot;Apt. 950&quot;,
+      &quot;city&quot;: &quot;South Christy&quot;,
+      &quot;zipcode&quot;: &quot;23505-1337&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-71.4197&quot;,
+        &quot;lng&quot;: &quot;71.7478&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-477-935-8478 x6430&quot;,
+    &quot;website&quot;: &quot;ola.org&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Considine-Lockman&quot;,
+      &quot;catchPhrase&quot;: &quot;Synchronised bottom-line interface&quot;,
+      &quot;bs&quot;: &quot;e-enable innovative applications&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 7,
+    &quot;name&quot;: &quot;Kurtis Weissnat&quot;,
+    &quot;username&quot;: &quot;Elwyn.Skiles&quot;,
+    &quot;email&quot;: &quot;Telly.Hoeger@billy.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Rex Trail&quot;,
+      &quot;suite&quot;: &quot;Suite 280&quot;,
+      &quot;city&quot;: &quot;Howemouth&quot;,
+      &quot;zipcode&quot;: &quot;58804-1099&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;24.8918&quot;,
+        &quot;lng&quot;: &quot;21.8984&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;210.067.6132&quot;,
+    &quot;website&quot;: &quot;elvis.io&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Johns Group&quot;,
+      &quot;catchPhrase&quot;: &quot;Configurable multimedia task-force&quot;,
+      &quot;bs&quot;: &quot;generate enterprise e-tailers&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;name&quot;: &quot;Nicholas Runolfsdottir V&quot;,
+    &quot;username&quot;: &quot;Maxime_Nienow&quot;,
+    &quot;email&quot;: &quot;Sherwood@rosamond.me&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Ellsworth Summit&quot;,
+      &quot;suite&quot;: &quot;Suite 729&quot;,
+      &quot;city&quot;: &quot;Aliyaview&quot;,
+      &quot;zipcode&quot;: &quot;45169&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-14.3990&quot;,
+        &quot;lng&quot;: &quot;-120.7677&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;586.493.6943 x140&quot;,
+    &quot;website&quot;: &quot;jacynthe.com&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Abernathy Group&quot;,
+      &quot;catchPhrase&quot;: &quot;Implemented secondary concept&quot;,
+      &quot;bs&quot;: &quot;e-enable extensible e-tailers&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Glenna Reichert&quot;,
+    &quot;username&quot;: &quot;Delphine&quot;,
+    &quot;email&quot;: &quot;Chaim_McDermott@dana.io&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Dayna Park&quot;,
+      &quot;suite&quot;: &quot;Suite 449&quot;,
+      &quot;city&quot;: &quot;Bartholomebury&quot;,
+      &quot;zipcode&quot;: &quot;76495-3109&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;24.6463&quot;,
+        &quot;lng&quot;: &quot;-168.8889&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;(775)976-6794 x41206&quot;,
+    &quot;website&quot;: &quot;conrad.com&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Yost and Sons&quot;,
+      &quot;catchPhrase&quot;: &quot;Switchable contextually-based project&quot;,
+      &quot;bs&quot;: &quot;aggregate real-time technologies&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;name&quot;: &quot;Clementina DuBuque&quot;,
+    &quot;username&quot;: &quot;Moriah.Stanton&quot;,
+    &quot;email&quot;: &quot;Rey.Padberg@karina.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Kattie Turnpike&quot;,
+      &quot;suite&quot;: &quot;Suite 198&quot;,
+      &quot;city&quot;: &quot;Lebsackbury&quot;,
+      &quot;zipcode&quot;: &quot;31428-2261&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-38.2386&quot;,
+        &quot;lng&quot;: &quot;57.2232&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;024-648-3804&quot;,
+    &quot;website&quot;: &quot;ambrose.net&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Hoeger LLC&quot;,
+      &quot;catchPhrase&quot;: &quot;Centralized empowering task-force&quot;,
+      &quot;bs&quot;: &quot;target end-to-end models&quot;
+    }
+  }
+]
+
+15:18:12.776 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 663.97
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 4ab7d1010ac3c942-HYD
+1 &lt; Cache-Control: public, max-age=14400
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 19 Feb 2019 09:48:12 GMT
+1 &lt; Etag: W/&quot;160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ&quot;
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Expires: Tue, 19 Feb 2019 13:48:12 GMT
+1 &lt; Pragma: no-cache
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=dd14edb34c8f89cfd050c3da68f2994131550569692; expires=Wed, 19-Feb-20 09:48:12 GMT; path=/; domain=.typicode.com; HttpOnly
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Powered-By: Express
+[
+  {
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;Leanne Graham&quot;,
+    &quot;username&quot;: &quot;Bret&quot;,
+    &quot;email&quot;: &quot;Sincere@april.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Kulas Light&quot;,
+      &quot;suite&quot;: &quot;Apt. 556&quot;,
+      &quot;city&quot;: &quot;Gwenborough&quot;,
+      &quot;zipcode&quot;: &quot;92998-3874&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-37.3159&quot;,
+        &quot;lng&quot;: &quot;81.1496&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-770-736-8031 x56442&quot;,
+    &quot;website&quot;: &quot;hildegard.org&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Romaguera-Crona&quot;,
+      &quot;catchPhrase&quot;: &quot;Multi-layered client-server neural-net&quot;,
+      &quot;bs&quot;: &quot;harness real-time e-markets&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Ervin Howell&quot;,
+    &quot;username&quot;: &quot;Antonette&quot;,
+    &quot;email&quot;: &quot;Shanna@melissa.tv&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Victor Plains&quot;,
+      &quot;suite&quot;: &quot;Suite 879&quot;,
+      &quot;city&quot;: &quot;Wisokyburgh&quot;,
+      &quot;zipcode&quot;: &quot;90566-7771&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-43.9509&quot;,
+        &quot;lng&quot;: &quot;-34.4618&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;010-692-6593 x09125&quot;,
+    &quot;website&quot;: &quot;anastasia.net&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Deckow-Crist&quot;,
+      &quot;catchPhrase&quot;: &quot;Proactive didactic contingency&quot;,
+      &quot;bs&quot;: &quot;synergize scalable supply-chains&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 3,
+    &quot;name&quot;: &quot;Clementine Bauch&quot;,
+    &quot;username&quot;: &quot;Samantha&quot;,
+    &quot;email&quot;: &quot;Nathan@yesenia.net&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Douglas Extension&quot;,
+      &quot;suite&quot;: &quot;Suite 847&quot;,
+      &quot;city&quot;: &quot;McKenziehaven&quot;,
+      &quot;zipcode&quot;: &quot;59590-4157&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-68.6102&quot;,
+        &quot;lng&quot;: &quot;-47.0653&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-463-123-4447&quot;,
+    &quot;website&quot;: &quot;ramiro.info&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Romaguera-Jacobson&quot;,
+      &quot;catchPhrase&quot;: &quot;Face to face bifurcated interface&quot;,
+      &quot;bs&quot;: &quot;e-enable strategic applications&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 4,
+    &quot;name&quot;: &quot;Patricia Lebsack&quot;,
+    &quot;username&quot;: &quot;Karianne&quot;,
+    &quot;email&quot;: &quot;Julianne.OConner@kory.org&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Hoeger Mall&quot;,
+      &quot;suite&quot;: &quot;Apt. 692&quot;,
+      &quot;city&quot;: &quot;South Elvis&quot;,
+      &quot;zipcode&quot;: &quot;53919-4257&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;29.4572&quot;,
+        &quot;lng&quot;: &quot;-164.2990&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;493-170-9623 x156&quot;,
+    &quot;website&quot;: &quot;kale.biz&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Robel-Corkery&quot;,
+      &quot;catchPhrase&quot;: &quot;Multi-tiered zero tolerance productivity&quot;,
+      &quot;bs&quot;: &quot;transition cutting-edge web services&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 5,
+    &quot;name&quot;: &quot;Chelsey Dietrich&quot;,
+    &quot;username&quot;: &quot;Kamren&quot;,
+    &quot;email&quot;: &quot;Lucio_Hettinger@annie.ca&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Skiles Walks&quot;,
+      &quot;suite&quot;: &quot;Suite 351&quot;,
+      &quot;city&quot;: &quot;Roscoeview&quot;,
+      &quot;zipcode&quot;: &quot;33263&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-31.8129&quot;,
+        &quot;lng&quot;: &quot;62.5342&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;(254)954-1289&quot;,
+    &quot;website&quot;: &quot;demarco.info&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Keebler LLC&quot;,
+      &quot;catchPhrase&quot;: &quot;User-centric fault-tolerant solution&quot;,
+      &quot;bs&quot;: &quot;revolutionize end-to-end systems&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Mrs. Dennis Schulist&quot;,
+    &quot;username&quot;: &quot;Leopoldo_Corkery&quot;,
+    &quot;email&quot;: &quot;Karley_Dach@jasper.info&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Norberto Crossing&quot;,
+      &quot;suite&quot;: &quot;Apt. 950&quot;,
+      &quot;city&quot;: &quot;South Christy&quot;,
+      &quot;zipcode&quot;: &quot;23505-1337&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-71.4197&quot;,
+        &quot;lng&quot;: &quot;71.7478&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;1-477-935-8478 x6430&quot;,
+    &quot;website&quot;: &quot;ola.org&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Considine-Lockman&quot;,
+      &quot;catchPhrase&quot;: &quot;Synchronised bottom-line interface&quot;,
+      &quot;bs&quot;: &quot;e-enable innovative applications&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 7,
+    &quot;name&quot;: &quot;Kurtis Weissnat&quot;,
+    &quot;username&quot;: &quot;Elwyn.Skiles&quot;,
+    &quot;email&quot;: &quot;Telly.Hoeger@billy.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Rex Trail&quot;,
+      &quot;suite&quot;: &quot;Suite 280&quot;,
+      &quot;city&quot;: &quot;Howemouth&quot;,
+      &quot;zipcode&quot;: &quot;58804-1099&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;24.8918&quot;,
+        &quot;lng&quot;: &quot;21.8984&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;210.067.6132&quot;,
+    &quot;website&quot;: &quot;elvis.io&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Johns Group&quot;,
+      &quot;catchPhrase&quot;: &quot;Configurable multimedia task-force&quot;,
+      &quot;bs&quot;: &quot;generate enterprise e-tailers&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;name&quot;: &quot;Nicholas Runolfsdottir V&quot;,
+    &quot;username&quot;: &quot;Maxime_Nienow&quot;,
+    &quot;email&quot;: &quot;Sherwood@rosamond.me&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Ellsworth Summit&quot;,
+      &quot;suite&quot;: &quot;Suite 729&quot;,
+      &quot;city&quot;: &quot;Aliyaview&quot;,
+      &quot;zipcode&quot;: &quot;45169&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-14.3990&quot;,
+        &quot;lng&quot;: &quot;-120.7677&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;586.493.6943 x140&quot;,
+    &quot;website&quot;: &quot;jacynthe.com&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Abernathy Group&quot;,
+      &quot;catchPhrase&quot;: &quot;Implemented secondary concept&quot;,
+      &quot;bs&quot;: &quot;e-enable extensible e-tailers&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Glenna Reichert&quot;,
+    &quot;username&quot;: &quot;Delphine&quot;,
+    &quot;email&quot;: &quot;Chaim_McDermott@dana.io&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Dayna Park&quot;,
+      &quot;suite&quot;: &quot;Suite 449&quot;,
+      &quot;city&quot;: &quot;Bartholomebury&quot;,
+      &quot;zipcode&quot;: &quot;76495-3109&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;24.6463&quot;,
+        &quot;lng&quot;: &quot;-168.8889&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;(775)976-6794 x41206&quot;,
+    &quot;website&quot;: &quot;conrad.com&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Yost and Sons&quot;,
+      &quot;catchPhrase&quot;: &quot;Switchable contextually-based project&quot;,
+      &quot;bs&quot;: &quot;aggregate real-time technologies&quot;
+    }
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;name&quot;: &quot;Clementina DuBuque&quot;,
+    &quot;username&quot;: &quot;Moriah.Stanton&quot;,
+    &quot;email&quot;: &quot;Rey.Padberg@karina.biz&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Kattie Turnpike&quot;,
+      &quot;suite&quot;: &quot;Suite 198&quot;,
+      &quot;city&quot;: &quot;Lebsackbury&quot;,
+      &quot;zipcode&quot;: &quot;31428-2261&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;-38.2386&quot;,
+        &quot;lng&quot;: &quot;57.2232&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;024-648-3804&quot;,
+    &quot;website&quot;: &quot;ambrose.net&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Hoeger LLC&quot;,
+      &quot;catchPhrase&quot;: &quot;Centralized empowering task-force&quot;,
+      &quot;bs&quot;: &quot;target end-to-end models&quot;
+    }
+  }
+]
+
+15:18:12.782 [ForkJoinPool-1-worker-5] ERROR com.intuit.karate - status code was: 200, expected: 201, response time: 675, url: https://jsonplaceholder.typicode.com/users, response: [{&quot;id&quot;:1,&quot;name&quot;:&quot;Leanne Graham&quot;,&quot;username&quot;:&quot;Bret&quot;,&quot;email&quot;:&quot;Sincere@april.biz&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Kulas Light&quot;,&quot;suite&quot;:&quot;Apt. 556&quot;,&quot;city&quot;:&quot;Gwenborough&quot;,&quot;zipcode&quot;:&quot;92998-3874&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-37.3159&quot;,&quot;lng&quot;:&quot;81.1496&quot;}},&quot;phone&quot;:&quot;1-770-736-8031 x56442&quot;,&quot;website&quot;:&quot;hildegard.org&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Romaguera-Crona&quot;,&quot;catchPhrase&quot;:&quot;Multi-layered client-server neural-net&quot;,&quot;bs&quot;:&quot;harness real-time e-markets&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Ervin Howell&quot;,&quot;username&quot;:&quot;Antonette&quot;,&quot;email&quot;:&quot;Shanna@melissa.tv&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Victor Plains&quot;,&quot;suite&quot;:&quot;Suite 879&quot;,&quot;city&quot;:&quot;Wisokyburgh&quot;,&quot;zipcode&quot;:&quot;90566-7771&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-43.9509&quot;,&quot;lng&quot;:&quot;-34.4618&quot;}},&quot;phone&quot;:&quot;010-692-6593 x09125&quot;,&quot;website&quot;:&quot;anastasia.net&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Deckow-Crist&quot;,&quot;catchPhrase&quot;:&quot;Proactive didactic contingency&quot;,&quot;bs&quot;:&quot;synergize scalable supply-chains&quot;}},{&quot;id&quot;:3,&quot;name&quot;:&quot;Clementine Bauch&quot;,&quot;username&quot;:&quot;Samantha&quot;,&quot;email&quot;:&quot;Nathan@yesenia.net&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Douglas Extension&quot;,&quot;suite&quot;:&quot;Suite 847&quot;,&quot;city&quot;:&quot;McKenziehaven&quot;,&quot;zipcode&quot;:&quot;59590-4157&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-68.6102&quot;,&quot;lng&quot;:&quot;-47.0653&quot;}},&quot;phone&quot;:&quot;1-463-123-4447&quot;,&quot;website&quot;:&quot;ramiro.info&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Romaguera-Jacobson&quot;,&quot;catchPhrase&quot;:&quot;Face to face bifurcated interface&quot;,&quot;bs&quot;:&quot;e-enable strategic applications&quot;}},{&quot;id&quot;:4,&quot;name&quot;:&quot;Patricia Lebsack&quot;,&quot;username&quot;:&quot;Karianne&quot;,&quot;email&quot;:&quot;Julianne.OConner@kory.org&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Hoeger Mall&quot;,&quot;suite&quot;:&quot;Apt. 692&quot;,&quot;city&quot;:&quot;South Elvis&quot;,&quot;zipcode&quot;:&quot;53919-4257&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;29.4572&quot;,&quot;lng&quot;:&quot;-164.2990&quot;}},&quot;phone&quot;:&quot;493-170-9623 x156&quot;,&quot;website&quot;:&quot;kale.biz&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Robel-Corkery&quot;,&quot;catchPhrase&quot;:&quot;Multi-tiered zero tolerance productivity&quot;,&quot;bs&quot;:&quot;transition cutting-edge web services&quot;}},{&quot;id&quot;:5,&quot;name&quot;:&quot;Chelsey Dietrich&quot;,&quot;username&quot;:&quot;Kamren&quot;,&quot;email&quot;:&quot;Lucio_Hettinger@annie.ca&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Skiles Walks&quot;,&quot;suite&quot;:&quot;Suite 351&quot;,&quot;city&quot;:&quot;Roscoeview&quot;,&quot;zipcode&quot;:&quot;33263&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-31.8129&quot;,&quot;lng&quot;:&quot;62.5342&quot;}},&quot;phone&quot;:&quot;(254)954-1289&quot;,&quot;website&quot;:&quot;demarco.info&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Keebler LLC&quot;,&quot;catchPhrase&quot;:&quot;User-centric fault-tolerant solution&quot;,&quot;bs&quot;:&quot;revolutionize end-to-end systems&quot;}},{&quot;id&quot;:6,&quot;name&quot;:&quot;Mrs. Dennis Schulist&quot;,&quot;username&quot;:&quot;Leopoldo_Corkery&quot;,&quot;email&quot;:&quot;Karley_Dach@jasper.info&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Norberto Crossing&quot;,&quot;suite&quot;:&quot;Apt. 950&quot;,&quot;city&quot;:&quot;South Christy&quot;,&quot;zipcode&quot;:&quot;23505-1337&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-71.4197&quot;,&quot;lng&quot;:&quot;71.7478&quot;}},&quot;phone&quot;:&quot;1-477-935-8478 x6430&quot;,&quot;website&quot;:&quot;ola.org&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Considine-Lockman&quot;,&quot;catchPhrase&quot;:&quot;Synchronised bottom-line interface&quot;,&quot;bs&quot;:&quot;e-enable innovative applications&quot;}},{&quot;id&quot;:7,&quot;name&quot;:&quot;Kurtis Weissnat&quot;,&quot;username&quot;:&quot;Elwyn.Skiles&quot;,&quot;email&quot;:&quot;Telly.Hoeger@billy.biz&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Rex Trail&quot;,&quot;suite&quot;:&quot;Suite 280&quot;,&quot;city&quot;:&quot;Howemouth&quot;,&quot;zipcode&quot;:&quot;58804-1099&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.8918&quot;,&quot;lng&quot;:&quot;21.8984&quot;}},&quot;phone&quot;:&quot;210.067.6132&quot;,&quot;website&quot;:&quot;elvis.io&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Johns Group&quot;,&quot;catchPhrase&quot;:&quot;Configurable multimedia task-force&quot;,&quot;bs&quot;:&quot;generate enterprise e-tailers&quot;}},{&quot;id&quot;:8,&quot;name&quot;:&quot;Nicholas Runolfsdottir V&quot;,&quot;username&quot;:&quot;Maxime_Nienow&quot;,&quot;email&quot;:&quot;Sherwood@rosamond.me&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Ellsworth Summit&quot;,&quot;suite&quot;:&quot;Suite 729&quot;,&quot;city&quot;:&quot;Aliyaview&quot;,&quot;zipcode&quot;:&quot;45169&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-14.3990&quot;,&quot;lng&quot;:&quot;-120.7677&quot;}},&quot;phone&quot;:&quot;586.493.6943 x140&quot;,&quot;website&quot;:&quot;jacynthe.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Abernathy Group&quot;,&quot;catchPhrase&quot;:&quot;Implemented secondary concept&quot;,&quot;bs&quot;:&quot;e-enable extensible e-tailers&quot;}},{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}},{&quot;id&quot;:10,&quot;name&quot;:&quot;Clementina DuBuque&quot;,&quot;username&quot;:&quot;Moriah.Stanton&quot;,&quot;email&quot;:&quot;Rey.Padberg@karina.biz&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Kattie Turnpike&quot;,&quot;suite&quot;:&quot;Suite 198&quot;,&quot;city&quot;:&quot;Lebsackbury&quot;,&quot;zipcode&quot;:&quot;31428-2261&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-38.2386&quot;,&quot;lng&quot;:&quot;57.2232&quot;}},&quot;phone&quot;:&quot;024-648-3804&quot;,&quot;website&quot;:&quot;ambrose.net&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Hoeger LLC&quot;,&quot;catchPhrase&quot;:&quot;Centralized empowering task-force&quot;,&quot;bs&quot;:&quot;target end-to-end models&quot;}}]
+15:18:12.895 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+2 &gt; GET https://jsonplaceholder.typicode.com/users/1
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Cookie: __cfduid=dd14edb34c8f89cfd050c3da68f2994131550569692
+2 &gt; Host: jsonplaceholder.typicode.com
+2 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_192)
+
+15:18:12.969 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 71.93
+2 &lt; 200
+2 &lt; Access-Control-Allow-Credentials: true
+2 &lt; CF-Cache-Status: HIT
+2 &lt; CF-RAY: 4ab7d1029884c952-HYD
+2 &lt; Cache-Control: public, max-age=14400
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Tue, 19 Feb 2019 09:48:12 GMT
+2 &lt; Etag: W/&quot;1fd-+2Y3G3w049iSZtw5t1mzSnunngE&quot;
+2 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+2 &lt; Expires: Tue, 19 Feb 2019 13:48:12 GMT
+2 &lt; Pragma: no-cache
+2 &lt; Server: cloudflare
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Origin, Accept-Encoding
+2 &lt; Via: 1.1 vegur
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Powered-By: Express
+{
+  &quot;id&quot;: 1,
+  &quot;name&quot;: &quot;Leanne Graham&quot;,
+  &quot;username&quot;: &quot;Bret&quot;,
+  &quot;email&quot;: &quot;Sincere@april.biz&quot;,
+  &quot;address&quot;: {
+    &quot;street&quot;: &quot;Kulas Light&quot;,
+    &quot;suite&quot;: &quot;Apt. 556&quot;,
+    &quot;city&quot;: &quot;Gwenborough&quot;,
+    &quot;zipcode&quot;: &quot;92998-3874&quot;,
+    &quot;geo&quot;: {
+      &quot;lat&quot;: &quot;-37.3159&quot;,
+      &quot;lng&quot;: &quot;81.1496&quot;
+    }
+  },
+  &quot;phone&quot;: &quot;1-770-736-8031 x56442&quot;,
+  &quot;website&quot;: &quot;hildegard.org&quot;,
+  &quot;company&quot;: {
+    &quot;name&quot;: &quot;Romaguera-Crona&quot;,
+    &quot;catchPhrase&quot;: &quot;Multi-layered client-server neural-net&quot;,
+    &quot;bs&quot;: &quot;harness real-time e-markets&quot;
+  }
+}
+
+15:18:13.218 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 1102.03
+1 &lt; 201
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: Location
+1 &lt; CF-RAY: 4ab7d1011a8ec95e-HYD
+1 &lt; Cache-Control: no-cache
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 216
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 19 Feb 2019 09:48:12 GMT
+1 &lt; Etag: W/&quot;d8-pYV7+YuMGP2hxHPU9ARrf97ifDA&quot;
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Expires: -1
+1 &lt; Location: http://jsonplaceholder.typicode.com/users/11
+1 &lt; Pragma: no-cache
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d5b2434ebdcdf50926757c2d59cf153c31550569692; expires=Wed, 19-Feb-20 09:48:12 GMT; path=/; domain=.typicode.com; HttpOnly
+1 &lt; Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Powered-By: Express
+{
+  &quot;name&quot;: &quot;Test User&quot;,
+  &quot;username&quot;: &quot;testuser&quot;,
+  &quot;email&quot;: &quot;test@user.com&quot;,
+  &quot;address&quot;: {
+    &quot;street&quot;: &quot;Has No Name&quot;,
+    &quot;suite&quot;: &quot;Apt. 123&quot;,
+    &quot;city&quot;: &quot;Electri&quot;,
+    &quot;zipcode&quot;: &quot;54321-6789&quot;
+  },
+  &quot;id&quot;: 11
+}
+
+15:18:13.233 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] created id is: 11
+15:18:13.249 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1130.30
+1 &lt; 201
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Expose-Headers: Location
+1 &lt; CF-RAY: 4ab7d1011b3ec946-HYD
+1 &lt; Cache-Control: no-cache
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 216
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 19 Feb 2019 09:48:12 GMT
+1 &lt; Etag: W/&quot;d8-pYV7+YuMGP2hxHPU9ARrf97ifDA&quot;
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Expires: -1
+1 &lt; Location: http://jsonplaceholder.typicode.com/users/11
+1 &lt; Pragma: no-cache
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d3c23688c1c5892ae602c22150c83ae0a1550569692; expires=Wed, 19-Feb-20 09:48:12 GMT; path=/; domain=.typicode.com; HttpOnly
+1 &lt; Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Powered-By: Express
+{
+  &quot;name&quot;: &quot;Test User&quot;,
+  &quot;username&quot;: &quot;testuser&quot;,
+  &quot;email&quot;: &quot;test@user.com&quot;,
+  &quot;address&quot;: {
+    &quot;street&quot;: &quot;Has No Name&quot;,
+    &quot;suite&quot;: &quot;Apt. 123&quot;,
+    &quot;city&quot;: &quot;Electri&quot;,
+    &quot;zipcode&quot;: &quot;54321-6789&quot;
+  },
+  &quot;id&quot;: 11
+}
+
+15:18:13.252 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] created id is: 11
+15:18:13.309 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 3 of 3: classpath:Features/API_usersNew.feature
+---------------------------------------------------------
+feature: classpath:Features/API_usersNew.feature
+report: target\surefire-reports\Features.API_usersNew.json
+scenarios:  2 | passed:  2 | failed:  0 | time: 4.9688
+---------------------------------------------------------
+15:18:13.312 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate.Runner - &lt;&lt;fail&gt;&gt; feature 2 of 3: classpath:Features/API_usersAdvanced.feature
+---------------------------------------------------------
+feature: classpath:Features/API_usersAdvanced.feature
+report: target\surefire-reports\Features.API_usersAdvanced.json
+scenarios:  2 | passed:  1 | failed:  1 | time: 3.9984
+---------------------------------------------------------
+Karate version: 0.9.1
+======================================================
+elapsed:   4.70 | threads:    5 | thread time: 8.97 
+features:     3 | ignored:    0 | efficiency: 0.38
+scenarios:    7 | passed:     3 | failed: 4
+======================================================
+failed features:
+Features.API_test: API_test.feature:25 - no step-definition method match found for: I want to write a step with precondition,API_test.feature:35 - no step-definition method match found for: I want to write a step with name1,API_test.feature:35 - no step-definition method match found for: I want to write a step with name2
+Features.API_usersAdvanced: API_usersAdvanced.feature:18 - status code was: 200, expected: 201, response time: 675, url: https://jsonplaceholder.typicode.com/users, response: [{&quot;id&quot;:1,&quot;name&quot;:&quot;Leanne Graham&quot;,&quot;username&quot;:&quot;Bret&quot;,&quot;email&quot;:&quot;Sincere@april.biz&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Kulas Light&quot;,&quot;suite&quot;:&quot;Apt. 556&quot;,&quot;city&quot;:&quot;Gwenborough&quot;,&quot;zipcode&quot;:&quot;92998-3874&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-37.3159&quot;,&quot;lng&quot;:&quot;81.1496&quot;}},&quot;phone&quot;:&quot;1-770-736-8031 x56442&quot;,&quot;website&quot;:&quot;hildegard.org&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Romaguera-Crona&quot;,&quot;catchPhrase&quot;:&quot;Multi-layered client-server neural-net&quot;,&quot;bs&quot;:&quot;harness real-time e-markets&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Ervin Howell&quot;,&quot;username&quot;:&quot;Antonette&quot;,&quot;email&quot;:&quot;Shanna@melissa.tv&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Victor Plains&quot;,&quot;suite&quot;:&quot;Suite 879&quot;,&quot;city&quot;:&quot;Wisokyburgh&quot;,&quot;zipcode&quot;:&quot;90566-7771&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-43.9509&quot;,&quot;lng&quot;:&quot;-34.4618&quot;}},&quot;phone&quot;:&quot;010-692-6593 x09125&quot;,&quot;website&quot;:&quot;anastasia.net&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Deckow-Crist&quot;,&quot;catchPhrase&quot;:&quot;Proactive didactic contingency&quot;,&quot;bs&quot;:&quot;synergize scalable supply-chains&quot;}},{&quot;id&quot;:3,&quot;name&quot;:&quot;Clementine Bauch&quot;,&quot;username&quot;:&quot;Samantha&quot;,&quot;email&quot;:&quot;Nathan@yesenia.net&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Douglas Extension&quot;,&quot;suite&quot;:&quot;Suite 847&quot;,&quot;city&quot;:&quot;McKenziehaven&quot;,&quot;zipcode&quot;:&quot;59590-4157&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-68.6102&quot;,&quot;lng&quot;:&quot;-47.0653&quot;}},&quot;phone&quot;:&quot;1-463-123-4447&quot;,&quot;website&quot;:&quot;ramiro.info&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Romaguera-Jacobson&quot;,&quot;catchPhrase&quot;:&quot;Face to face bifurcated interface&quot;,&quot;bs&quot;:&quot;e-enable strategic applications&quot;}},{&quot;id&quot;:4,&quot;name&quot;:&quot;Patricia Lebsack&quot;,&quot;username&quot;:&quot;Karianne&quot;,&quot;email&quot;:&quot;Julianne.OConner@kory.org&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Hoeger Mall&quot;,&quot;suite&quot;:&quot;Apt. 692&quot;,&quot;city&quot;:&quot;South Elvis&quot;,&quot;zipcode&quot;:&quot;53919-4257&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;29.4572&quot;,&quot;lng&quot;:&quot;-164.2990&quot;}},&quot;phone&quot;:&quot;493-170-9623 x156&quot;,&quot;website&quot;:&quot;kale.biz&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Robel-Corkery&quot;,&quot;catchPhrase&quot;:&quot;Multi-tiered zero tolerance productivity&quot;,&quot;bs&quot;:&quot;transition cutting-edge web services&quot;}},{&quot;id&quot;:5,&quot;name&quot;:&quot;Chelsey Dietrich&quot;,&quot;username&quot;:&quot;Kamren&quot;,&quot;email&quot;:&quot;Lucio_Hettinger@annie.ca&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Skiles Walks&quot;,&quot;suite&quot;:&quot;Suite 351&quot;,&quot;city&quot;:&quot;Roscoeview&quot;,&quot;zipcode&quot;:&quot;33263&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-31.8129&quot;,&quot;lng&quot;:&quot;62.5342&quot;}},&quot;phone&quot;:&quot;(254)954-1289&quot;,&quot;website&quot;:&quot;demarco.info&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Keebler LLC&quot;,&quot;catchPhrase&quot;:&quot;User-centric fault-tolerant solution&quot;,&quot;bs&quot;:&quot;revolutionize end-to-end systems&quot;}},{&quot;id&quot;:6,&quot;name&quot;:&quot;Mrs. Dennis Schulist&quot;,&quot;username&quot;:&quot;Leopoldo_Corkery&quot;,&quot;email&quot;:&quot;Karley_Dach@jasper.info&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Norberto Crossing&quot;,&quot;suite&quot;:&quot;Apt. 950&quot;,&quot;city&quot;:&quot;South Christy&quot;,&quot;zipcode&quot;:&quot;23505-1337&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-71.4197&quot;,&quot;lng&quot;:&quot;71.7478&quot;}},&quot;phone&quot;:&quot;1-477-935-8478 x6430&quot;,&quot;website&quot;:&quot;ola.org&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Considine-Lockman&quot;,&quot;catchPhrase&quot;:&quot;Synchronised bottom-line interface&quot;,&quot;bs&quot;:&quot;e-enable innovative applications&quot;}},{&quot;id&quot;:7,&quot;name&quot;:&quot;Kurtis Weissnat&quot;,&quot;username&quot;:&quot;Elwyn.Skiles&quot;,&quot;email&quot;:&quot;Telly.Hoeger@billy.biz&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Rex Trail&quot;,&quot;suite&quot;:&quot;Suite 280&quot;,&quot;city&quot;:&quot;Howemouth&quot;,&quot;zipcode&quot;:&quot;58804-1099&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.8918&quot;,&quot;lng&quot;:&quot;21.8984&quot;}},&quot;phone&quot;:&quot;210.067.6132&quot;,&quot;website&quot;:&quot;elvis.io&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Johns Group&quot;,&quot;catchPhrase&quot;:&quot;Configurable multimedia task-force&quot;,&quot;bs&quot;:&quot;generate enterprise e-tailers&quot;}},{&quot;id&quot;:8,&quot;name&quot;:&quot;Nicholas Runolfsdottir V&quot;,&quot;username&quot;:&quot;Maxime_Nienow&quot;,&quot;email&quot;:&quot;Sherwood@rosamond.me&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Ellsworth Summit&quot;,&quot;suite&quot;:&quot;Suite 729&quot;,&quot;city&quot;:&quot;Aliyaview&quot;,&quot;zipcode&quot;:&quot;45169&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-14.3990&quot;,&quot;lng&quot;:&quot;-120.7677&quot;}},&quot;phone&quot;:&quot;586.493.6943 x140&quot;,&quot;website&quot;:&quot;jacynthe.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Abernathy Group&quot;,&quot;catchPhrase&quot;:&quot;Implemented secondary concept&quot;,&quot;bs&quot;:&quot;e-enable extensible e-tailers&quot;}},{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}},{&quot;id&quot;:10,&quot;name&quot;:&quot;Clementina DuBuque&quot;,&quot;username&quot;:&quot;Moriah.Stanton&quot;,&quot;email&quot;:&quot;Rey.Padberg@karina.biz&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Kattie Turnpike&quot;,&quot;suite&quot;:&quot;Suite 198&quot;,&quot;city&quot;:&quot;Lebsackbury&quot;,&quot;zipcode&quot;:&quot;31428-2261&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;-38.2386&quot;,&quot;lng&quot;:&quot;57.2232&quot;}},&quot;phone&quot;:&quot;024-648-3804&quot;,&quot;website&quot;:&quot;ambrose.net&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Hoeger LLC&quot;,&quot;catchPhrase&quot;:&quot;Centralized empowering task-force&quot;,&quot;bs&quot;:&quot;target end-to-end models&quot;}}]
+
+</system-out>
+    <system-err>Feb 19, 2019 3:18:14 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File &apos;C:\Users\Prakat-L-020\Documents\Automation_Frameworks\MultiModule_projects\maven-project-example\Backend_Module\target\surefire-reports\Features.API_test.json&apos; contains 1 features
+Feb 19, 2019 3:18:14 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File &apos;C:\Users\Prakat-L-020\Documents\Automation_Frameworks\MultiModule_projects\maven-project-example\Backend_Module\target\surefire-reports\Features.API_usersAdvanced.json&apos; contains 1 features
+Feb 19, 2019 3:18:14 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File &apos;C:\Users\Prakat-L-020\Documents\Automation_Frameworks\MultiModule_projects\maven-project-example\Backend_Module\target\surefire-reports\Features.API_usersNew.json&apos; contains 1 features
+</system-err>
+  </testcase>
+</testsuite>

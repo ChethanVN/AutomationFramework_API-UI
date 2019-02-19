@@ -1,0 +1,37 @@
+Feature: LoginFeature
+  This feature deals with the login functionality of the application
+
+  Scenario: Login with correct username and password [90m# UI_Login.feature:4[0m
+    [32mGiven [0m[32mI navigate to the login page[0m               [90m# LoginStep.i_navigate_to_the_login_page()[0m
+    [31mAnd [0m[31mI enter the following for Login[0m              [90m# LoginStep.i_enter_the_following_for_Login(DataTable)[0m
+      [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+      from unknown error: web view not found
+        (Session info: chrome=71.0.3578.98)
+        (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 34 milliseconds
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'PrakatL020-PC', ip: '192.168.1.160', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_192'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\PRAKAT~3\AppData\Local\Temp\scoped_dir3352_24575}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: 5eed5c1cc57eb0e7eec470671babd9e9
+      *** Element info: {Using=id, value=email}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+      	at org.openqa.selenium.By$ById.findElement(By.java:218)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+      	at Base.BaseUtil.type(BaseUtil.java:101)
+      	at steps.LoginStep.i_enter_the_following_for_Login(LoginStep.java:60)
+      	at ✽.And I enter the following for Login(UI_Login.feature:6)
+      [0m
+    [36mAnd [0m[36mI click login button[0m                         [90m# LoginStep.i_click_login_button()[0m
+    [36mThen [0m[36mI should close the browser[0m                  [90m# LoginStep.i_should_close_the_browser()[0m

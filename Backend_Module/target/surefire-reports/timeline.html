@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-2"},{"id":2,"content":"ForkJoinPool-1-worker-5"},{"id":3,"content":"ForkJoinPool-1-worker-4"},{"id":4,"content":"ForkJoinPool-1-worker-3"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"API_test[1:24]","start":1991,"end":2015,"title":"API_test[1:24] 1991-2015"},{"id":2,"group":2,"content":"API_test[2.1:41]","start":1977,"end":2121,"title":"API_test[2.1:41] 1977-2121"},{"id":3,"group":1,"content":"API_test[2.2:42]","start":2070,"end":2070,"title":"API_test[2.2:42] 2070-2070"},{"id":4,"group":2,"content":"API_usersAdvanced[1:14]","start":2177,"end":4175,"title":"API_usersAdvanced[1:14] 2177-4175"},{"id":5,"group":1,"content":"API_usersAdvanced[2:26]","start":2619,"end":4622,"title":"API_usersAdvanced[2:26] 2619-4622"},{"id":6,"group":3,"content":"API_usersNew[1:15]","start":1993,"end":4359,"title":"API_usersNew[1:15] 1993-4359"},{"id":7,"group":4,"content":"API_usersNew[2:27]","start":1993,"end":4641,"title":"API_usersNew[2:27] 1993-4641"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

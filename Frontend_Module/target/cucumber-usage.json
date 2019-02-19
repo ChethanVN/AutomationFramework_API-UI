@@ -1,0 +1,20 @@
+[
+  {
+    "source": "^I navigate to the login page$",
+    "steps": [
+      {
+        "name": "I navigate to the login page",
+        "aggregatedDurations": {
+          "average": 2.502617464,
+          "median": 2.502617464
+        },
+        "durations": [
+          {
+            "duration": 2.502617464,
+            "location": "UI_Login.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

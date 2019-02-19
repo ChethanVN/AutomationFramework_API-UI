@@ -1,0 +1,68 @@
+<testsuite failures="3" name="Features/API_test.feature" skipped="0" tests="3" time="0">
+  <testcase classname="Features.API_test" name="Title of your scenario" time="0">
+    <failure message="API_test.feature:25 - no step-definition method match found for: I want to write a step with precondition">Given I want to write a step with precondition ............................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: API_test.feature:25 - no step-definition method match found for: I want to write a step with precondition&#13;
+	at ✽.Given I want to write a step with precondition (API_test.feature:25)&#13;
+
+And some other precondition ............................................... skipped
+When I complete action .................................................... skipped
+And some other action ..................................................... skipped
+And yet another action .................................................... skipped
+Then I validate the outcomes .............................................. skipped
+And check more outcomes ................................................... skipped</failure>
+  </testcase>
+  <testcase classname="Features.API_test" name="Title of your scenario outline" time="0">
+    <failure message="API_test.feature:35 - no step-definition method match found for: I want to write a step with name1">Given I want to write a step with precondition ............................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: API_test.feature:25 - no step-definition method match found for: I want to write a step with precondition&#13;
+	at ✽.Given I want to write a step with precondition (API_test.feature:25)&#13;
+
+And some other precondition ............................................... skipped
+When I complete action .................................................... skipped
+And some other action ..................................................... skipped
+And yet another action .................................................... skipped
+Then I validate the outcomes .............................................. skipped
+And check more outcomes ................................................... skipped
+Given I want to write a step with name1 ................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: API_test.feature:35 - no step-definition method match found for: I want to write a step with name1&#13;
+	at ✽.Given I want to write a step with name1 (API_test.feature:35)&#13;
+
+When I check for the 5 in step ............................................ skipped
+Then I verify the success in step ......................................... skipped</failure>
+  </testcase>
+  <testcase classname="Features.API_test" name="Title of your scenario outline" time="0">
+    <failure message="API_test.feature:35 - no step-definition method match found for: I want to write a step with name2">Given I want to write a step with precondition ............................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: API_test.feature:25 - no step-definition method match found for: I want to write a step with precondition&#13;
+	at ✽.Given I want to write a step with precondition (API_test.feature:25)&#13;
+
+And some other precondition ............................................... skipped
+When I complete action .................................................... skipped
+And some other action ..................................................... skipped
+And yet another action .................................................... skipped
+Then I validate the outcomes .............................................. skipped
+And check more outcomes ................................................... skipped
+Given I want to write a step with name1 ................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: API_test.feature:35 - no step-definition method match found for: I want to write a step with name1&#13;
+	at ✽.Given I want to write a step with name1 (API_test.feature:35)&#13;
+
+When I check for the 5 in step ............................................ skipped
+Then I verify the success in step ......................................... skipped
+Given I want to write a step with name2 ................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: API_test.feature:35 - no step-definition method match found for: I want to write a step with name2&#13;
+	at ✽.Given I want to write a step with name2 (API_test.feature:35)&#13;
+
+When I check for the 7 in step ............................................ skipped
+Then I verify the Fail in step ............................................ skipped</failure>
+  </testcase>
+</testsuite>
